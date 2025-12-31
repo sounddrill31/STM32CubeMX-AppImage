@@ -12,11 +12,11 @@ export ICON=/usr/share/pixmaps/stm32cubemx.png
 export DESKTOP=https://aur.archlinux.org/cgit/aur.git/plain/stm32cubemx.desktop?h=stm32cubemx
 
 # Deploy dependencies
-quick-sharun stm32cubemx \
+quick-sharun $(whereis stm32cubemx) \
     /opt/stm32cubemx \
-    archlinux-java-run \
-    archlinux-java \
-    usr/bin/java
+    $(whereis archlinux-java-run) \
+    $(whereis archlinux-java) \
+    /usr/bin/java
 
 
 # Additional changes can be done in between here
