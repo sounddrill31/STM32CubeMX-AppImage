@@ -13,7 +13,10 @@ export DESKTOP=https://aur.archlinux.org/cgit/aur.git/plain/stm32cubemx.desktop?
 
 # Deploy dependencies
 quick-sharun stm32cubemx \
-    /opt/stm32cubemx
+    /opt/stm32cubemx \
+    archlinux-java-run \
+    usr/bin/java
+
 
 # Additional changes can be done in between here
 
