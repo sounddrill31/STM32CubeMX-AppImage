@@ -12,7 +12,8 @@ export ICON=/usr/share/pixmaps/stm32cubemx.png
 export DESKTOP=https://aur.archlinux.org/cgit/aur.git/plain/stm32cubemx.desktop?h=stm32cubemx
 
 # Deploy dependencies
-quick-sharun stm32cubemx
+quick-sharun stm32cubemx \
+    /opt/stm32cubemx
 
 # Additional changes can be done in between here
 
