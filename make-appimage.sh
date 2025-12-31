@@ -15,6 +15,7 @@ export DESKTOP=https://aur.archlinux.org/cgit/aur.git/plain/stm32cubemx.desktop?
 quick-sharun stm32cubemx \
     /opt/stm32cubemx \
     archlinux-java-run \
+    archlinux-java \
     usr/bin/java
 
 
